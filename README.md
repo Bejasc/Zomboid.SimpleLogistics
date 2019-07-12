@@ -1,6 +1,8 @@
 # Simple Logistics
 
-_Simple Logistics is a mod for [Project Zomboid](https://store.steampowered.com/app/108600/Project_Zomboid/), that adds a balanced way to store and transport certain construction items in bulk. The mod is available on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1461151473) or [GitHub](https://github.com/Bejasc/Zomboid.SimpleLogistics/releases/latest)._
+_Simple Logistics is a mod for [Project Zomboid](https://store.steampowered.com/app/108600/Project_Zomboid/), that adds a balanced way to store and transport certain construction items in bulk. _
+
+The mod is available on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1461151473) or [GitHub](https://github.com/Bejasc/Zomboid.SimpleLogistics/releases/latest)._
 
 See [planned additions](https://github.com/Bejasc/Zomboid.SimpleLogistics/projects).
 
