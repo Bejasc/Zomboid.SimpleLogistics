@@ -21,21 +21,32 @@ This allows you to carry more of that item, while still in a 'balanced' way.
 The balance comes from the items still having a reasonably high weight, as well as requiring rope and the new 'pallet' item.
 
 *Create Pallet(Weight: 1.5)*
+
 15 Nails, 6 Planks, Hammer
 
+
 *Recycle Pallet (Gives 5x Nails and 3x Planks)*
+
 Hammer, Saw
 
+
 *Lumber Stack(Weight:7.5)*
+
 10 Planks, 2 Rope
 
+
 *Pallet of Lumber(Weight:15)*
+
 3 Lumber Stacks, 2 Rope, Pallet
 
+
 *Pallet of Logs(Weight:15)*
+
 3 Four Log Stacks, 2 Rope, Pallet
 
+
 *Pallet of Metal Sheets(Weight:15)*
+
 12 Metal Sheet, 2 Rope, Pallet
 
 ---
