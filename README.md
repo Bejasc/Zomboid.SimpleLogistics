@@ -2,8 +2,7 @@
 
 Available on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1461151473)
 
-![alt text](https://steamuserimages-a.akamaihd.net/ugc/963093747799907015/ADC8FFC2F067D28C535A68B539B65E17577BFA20/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
-
+See [planned additions](https://github.com/Bejasc/Zomboid.SimpleLogistics/projects).
 
 ### Description
 
