@@ -25,8 +25,7 @@ The balance comes from the items still having a reasonably high weight, as well 
 15 Nails, 6 Planks, Hammer
 
 
-*Recycle Pallet (Gives 5x Nails and 3x Planks)*
-
+*Recycle Pallet (Gives 5x Nails and 3x Planks)*\n
 Hammer, Saw
 
 
