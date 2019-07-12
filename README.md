@@ -1,4 +1,8 @@
-#Description
+#Simple Logistics
+
+Available on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1461151473)
+
+### Description
 
 This mod adds new items and recipes to make hauling loads of logs, planks, and metal sheets easier.
 The functionality is the same as Hydrocraft, with slightly different values, and the ability to recycle the pallet.
@@ -10,7 +14,7 @@ I intend to update this in future.
 
 ---
 
-#New Items/Recipes
+### New Items/Recipes
 Each added recipe has a 'Pack' and an 'Unpack' variant. Unpack will give you exactly the items used to create the packed version.
 The packed versions will create a new item that weighs less than the same amount of its unpacked item.
 This allows you to carry more of that item, while still in a 'balanced' way.
@@ -40,7 +44,7 @@ Hammer, Saw
 This mod uses a lot of rope, and rope can be hard to come by in the vanilla game.
 Check out my SimpleRope mod for a fast, easy, and blanced way to create some.
 
-#Credits
+### Credits
 Original Feature (Hydrocraft): Hydromancerx
 Sprites: The_Man_In_The_Purple_Hat and TIS
 
