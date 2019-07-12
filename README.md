@@ -48,8 +48,8 @@ This mod uses a lot of rope, and rope can be hard to come by in the vanilla game
 Check out my SimpleRope mod for a fast, easy, and blanced way to create some.
 
 ### Credits
-######## Original Feature (Hydrocraft): Hydromancerx
-######## Sprites: The_Man_In_The_Purple_Hat and TIS
+###### Original Feature (Hydrocraft): Hydromancerx
+###### Sprites: The_Man_In_The_Purple_Hat and TIS
 
-######## Workshop ID: 1461151473
-######## Mod ID: bejascLogistics
+###### Workshop ID: 1461151473
+###### Mod ID: bejascLogistics
