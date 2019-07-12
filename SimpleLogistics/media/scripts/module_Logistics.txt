@@ -1,0 +1,136 @@
+module Logistics
+{
+	imports
+	{
+		Base,
+	}
+	item Pallet
+	{
+		Weight 		= 1.5,
+		Icon 		= HCWoodenpallet,
+		DisplayName 		= Wooden Pallet,
+		ResizeWorldIcon 		= 1.0,
+	}
+	recipe Create Pallet
+	{
+		Nails = 15,
+		Plank = 6,
+		keep Hammer/HammerStone,
+		Result 		: Pallet,
+		Sound 		: PZ_Hammer,
+		Time 		: 200,
+		CanBeDoneFromFloor 		: true,
+		Category 		: Logistics,
+	}
+	recipe Recycle Pallet
+	{
+		Pallet,
+		keep Hammer,
+		keep Saw,
+		CanBeDoneFromFloor 		: true,
+		Sound 		: PZ_Saw,
+		Time 		: 200,
+		Result 		: Plank = 3,
+		OnCreate 		: Logistics_RecyclePallet,
+		Category 		: Logistics,
+	}
+	item LumberStack
+	{
+		DisplayName 		= Stack of Lumber,
+		ResizeWorldIcon 		= 1.0,
+		Weight 		= 7.5,
+		Icon 		= HCLumberstack,
+	}
+	item LumberPallet
+	{
+		DisplayName 		= Pallet of Lumber,
+		ResizeWorldIcon 		= 1.0,
+		Weight 		= 15,
+		Icon 		= HCLumberbox,
+	}
+	recipe Pack Lumber Stack
+	{
+		Plank = 10,
+		Rope = 2,
+		Result 		: LumberStack,
+		Sound 		: PZ_PutInBag,
+		Time 		: 140,
+		Category 		: Logistics,
+	}
+	recipe Unpack Lumber Stack
+	{
+		LumberStack,
+		Result 		: Plank=10,
+		Time 		: 40,
+		Category 		: Logistics,
+		OnCreate 		: Logistics_ReturnStack,
+	}
+	recipe Pack Pallet of Lumber
+	{
+		Pallet,
+		LumberStack = 3,
+		Rope = 2,
+		Result 		: LumberPallet,
+		Sound 		: PZ_PutInBag,
+		Time 		: 140,
+		Category 		: Logistics,
+	}
+	recipe Unpack Pallet of Lumber
+	{
+		LumberPallet,
+		Result 		: LumberStack = 3,
+		Time 		: 40,
+		Category 		: Logistics,
+		OnCreate 		: Logistics_ReturnPallet,
+	}
+	item LogPallet
+	{
+		DisplayName 		= Pallet of Logs,
+		ResizeWorldIcon 		= 1.0,
+		Weight 		= 15,
+		Icon 		= HCLogbox,
+	}
+	recipe Pack Pallet of Logs
+	{
+		Pallet,
+		LogStacks4 = 3,
+		Rope = 2,
+		Result 		: LogPallet,
+		Sound 		: PZ_PutInBag,
+		Time 		: 140,
+		Category 		: Logistics,
+	}
+	recipe Unpack Pallet of Logs
+	{
+		LogPallet,
+		Result 		: LogStacks4 = 3,
+		Time 		: 40,
+		Category 		: Logistics,
+		OnCreate 		: Logistics_ReturnPallet,
+	}
+	item MetalPallet
+	{
+		DisplayName 		= Pallet of Metal Sheets,
+		ResizeWorldIcon 		= 1.0,
+		Weight 		= 15,
+		Icon 		= HCMetalsheetbox,
+	}
+	recipe Pack Pallet of Metal Sheets
+	{
+		Pallet,
+		SheetMetal=12,
+		Rope = 2,
+		Result 		: MetalPallet,
+		Sound 		: PZ_PutInBag,
+		Time 		: 140,
+		Category 		: Logistics,
+	}
+	recipe Unpack Pallet of Metal Sheets
+	{
+		MetalPallet,
+		Result 		: SheetMetal = 12,
+		Time 		: 40,
+		Category 		: Logistics,
+		OnCreate 		: Logistics_ReturnPallet,
+	}
+}
